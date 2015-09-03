@@ -13,12 +13,16 @@ if (randomNumber > randomNumber3) {
     console.log("true statement");
 } else if (randomNumber2 === randomNumber4) {
     console.log("second true statement");
-} else if (randomNumber3 !== randomNumber5) {
+} else if (randomNumber3 <= randomNumber5) {
     console.log("third true statement");
-} else if (randomNumber4 < randomNumber6) {
+} else if (randomNumber4 >= randomNumber6) {
     console.log("fourth true statement");
-} else {
-    console.log("final true statement");
+} else if (randomNumber2 + randomNumber2 === randomNumber4) {
+    console.log("fifth true statement");
+} else if (randomNumber6 % randomNumber4 === randomNumber2) {
+    console.log('sixth true statement');
+} else (randomNumber === randomNumber) {
+    console.log('final true statement');
 }
 //right now this counts the number of characters in the variable
  
